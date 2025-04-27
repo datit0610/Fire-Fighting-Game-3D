@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6488223750275375573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5689203198679228825}
+  - component: {fileID: 3216945324679990002}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5689203198679228825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6488223750275375573}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 201.74765, y: 117.344406, z: 882.926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3216945324679990002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6488223750275375573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a66ac3a1319b704dbb0542a9f5b506c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuGame
+    clip: {fileID: 8300000, guid: fb84b306dc8881c4ea305f8ef352a6df, type: 3}
+    volume: 0.783
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Fire
+    clip: {fileID: 8300000, guid: cede791a4d2616541a2effd5396b5834, type: 3}
+    volume: 0.783
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Run
+    clip: {fileID: 8300000, guid: 005168aec25ee9f4687dad8df3d2e20b, type: 3}
+    volume: 0.783
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: CO2
+    clip: {fileID: 8300000, guid: 4114dcf7e6402e042b6ee14fb5d13990, type: 3}
+    volume: 0.783
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: BaoChay
+    clip: {fileID: 8300000, guid: a9354ca8d6cb06f4f89802197cb335df, type: 3}
+    volume: 0.783
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Walk
+    clip: {fileID: 8300000, guid: 76597d4e59e88974d87ceffdf31b94fa, type: 3}
+    volume: 0.783
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  soundFXs:
+  - namesfx: ButtonClick
+    sfx: {fileID: 8300000, guid: 863ff22c65d8c7c4a9d5556944c20f7f, type: 3}
+    volume: 0.637
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: ButtonEnter
+    sfx: {fileID: 8300000, guid: d1cf5a3f15661a842884722b20d5a6cf, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: ButtonPop
+    sfx: {fileID: 8300000, guid: 0186c566940eed24cb61bf633e7f8de7, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Jump
+    sfx: {fileID: 8300000, guid: 3ef160dfe87a1914c8415892d2c84c19, type: 3}
+    volume: 1
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Loot
+    sfx: {fileID: 8300000, guid: 35cd42212cee6fd4aaa44b390cbc7cab, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Pick_Drop
+    sfx: {fileID: 8300000, guid: d1cf5a3f15661a842884722b20d5a6cf, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Pan
+    sfx: {fileID: 8300000, guid: 53ac785e175340444932cdb48a25779b, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Pick_Drop
+    sfx: {fileID: 8300000, guid: d1cf5a3f15661a842884722b20d5a6cf, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: OpenDoor
+    sfx: {fileID: 8300000, guid: f02a6feeb60619a418b9dbc86d0cf09b, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Elevator
+    sfx: {fileID: 8300000, guid: af57f8815ac9d1f4394c58c671899f81, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: CloseDoor
+    sfx: {fileID: 8300000, guid: 6ea1e11916e987e4b95dce23a1372eca, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: CO2
+    sfx: {fileID: 8300000, guid: d6d8b2db014cd514c9a7a53130030dea, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
+  - namesfx: Winner
+    sfx: {fileID: 8300000, guid: 98f67c8c5aa901e4db91b5b85b741f46, type: 3}
+    volume: 0.706
+    pitch: 1
+    sourceFX: {fileID: 0}
